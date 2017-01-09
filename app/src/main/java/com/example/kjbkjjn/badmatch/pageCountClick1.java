@@ -33,7 +33,7 @@ public class pageCountClick1 extends AppCompatActivity {
         dialog.setTitle("player1");
         dialog.setMessage("這是一個10秒內按越多下就贏的遊戲,按下OK馬上開始");
 
-        dialog.setNeutralButton("返回",new DialogInterface.OnClickListener(){
+        dialog.setNeutralButton("回首頁",new DialogInterface.OnClickListener(){
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 Intent j=new Intent();
